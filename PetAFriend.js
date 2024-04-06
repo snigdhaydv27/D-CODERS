@@ -1,4 +1,4 @@
-function openGoogleForm() {
+function VolunteerOpportunities() {
     window.open('https://forms.gle/Pv2u5iBe4TdoCQtH9', '_self');
 }
 function Contact() {
