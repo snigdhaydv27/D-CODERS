@@ -54,7 +54,7 @@ function renderPets(pets) {
             }</p>
                 <p class="card-text">Location: ${pet.location || 'Unknown'
             }</p>
-                <button class="btn btn-primary" onclick="Contact()">Contact for Adoption</button>
+                <button class="btn btn-primary" id="btn" onclick="Contact()">Contact for Adoption</button>
             </div>
         </div>
     `;

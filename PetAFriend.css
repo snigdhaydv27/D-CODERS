@@ -16,6 +16,13 @@
     margin-top: 20px;
 }
 
+.btn:hover {
+    transform: scale(1.08);
+}
+.btn{
+    transition: transform 0.3s ;
+}
+
 .cardImg {
     width: 100%;
     height: 200px;
