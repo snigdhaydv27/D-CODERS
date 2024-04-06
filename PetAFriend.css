@@ -1,0 +1,13 @@
+.inputbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inputbox .inputfield {
+    position: relative;
+    width: 48%;
+    height: 50px;
+    background: transparent;
+    margin: 13px 0;
+}
