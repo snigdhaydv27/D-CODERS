@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color:#B9B7BD;
+    color: #EEEDE7;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.cover {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.Img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.ImgBox {
+    flex: 1 1 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.ImgBox:hover {
+    transform: scale(1.05);
+}
+
+.ImgBox{
+    width: 800px;
+    height: 250px;
+    background-image:url("adoption1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer {
+    background-color: #B9B7BD;
+    color: #EEEDE7;
+    text-align: center;
+    padding: 10px 0;
+}
+.aboutUs{
+    text-align: center;
+
+}
