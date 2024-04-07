@@ -35,6 +35,10 @@
                         <a class="nav-link" href="Contact.Us.html">Contact Us</a>
                     </li>
                 </ul>
+                <div class="form-check form-switch mx-3">
+                    <input class="form-check-input" type="checkbox" id="darkModeToggle">
+                    <label class="form-check-label" for="darkModeToggle" id="darkModeLabel">Enable Dark Mode</label>
+                </div>
                 <button type="button" class="btn btn-outline-success" onclick="VolunteerOpportunities()">
                     Volunteers Opportunities
                 </button>
@@ -46,11 +50,16 @@
         <h1>Contact Us</h1>
         <div id="Box">
             <h2> If you have any "Query" <br>or feedback for us...</h2><br>
-            <a href="https://surveyheart.com/form/660e4f1632732b6c93e7f004"><h3><b>Click here</b></h3></a> <br>
+            <a href="https://surveyheart.com/form/661285abc871bb1e8b1f7d3f"><h3><b>Click here</b></h3></a> <br>
             <h5> We will contact you via Email within 24 hours.</h5>
          </div>
     </div>
   <script>
+    document.getElementById('darkModeToggle').addEventListener('change', function() {
+    document.body.classList.toggle('dark-mode');
+    var darkModeLabel = document.getElementById('darkModeLabel');
+    darkModeLabel.textContent = this.checked ? 'Enable Light Mode' : 'Enable Dark Mode';
+});
     function VolunteerOpportunities() {
     window.open('https://forms.gle/Pv2u5iBe4TdoCQtH9', '_self');
 }

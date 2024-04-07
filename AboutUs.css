@@ -53,3 +53,10 @@ body {
     text-align: center;
 
 }
+body.dark-mode {
+    background-color: black;
+    color: #fff;
+}
+#darkModeLabel{
+ color: black;
+}

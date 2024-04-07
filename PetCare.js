@@ -50,6 +50,10 @@ async function fetchPets() {
 function VolunteerOpportunities() {
     window.open('https://forms.gle/Pv2u5iBe4TdoCQtH9', '_self');
 }
-
+document.getElementById('darkModeToggle').addEventListener('change', function() {
+    document.body.classList.toggle('dark-mode');
+    var darkModeLabel = document.getElementById('darkModeLabel');
+    darkModeLabel.textContent = this.checked ? 'Enable Light Mode' : 'Enable Dark Mode';
+});
 
 document.querySelector('.search input').addEventListener('change', fetchPets);

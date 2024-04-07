@@ -52,7 +52,7 @@ function renderPets(pets) {
                 ? pet.breeds[0].name
                 : 'Unknown'
             }</p>
-                <p class="card-text">Location: ${pet.location || 'Unknown'
+                <p class="card-text">Location: ${pet.location || 'Patna'
             }</p>
                 <button class="btn btn-primary" id="btn" onclick="Contact()">Contact for Adoption</button>
             </div>
@@ -61,9 +61,11 @@ function renderPets(pets) {
         petList.appendChild(card);
     });
 }
-
-
-
+document.getElementById('darkModeToggle').addEventListener('change', function() {
+    document.body.classList.toggle('dark-mode');
+    var darkModeLabel = document.getElementById('darkModeLabel');
+    darkModeLabel.textContent = this.checked ? 'Enable Light Mode' : 'Enable Dark Mode';
+});
 
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('type').addEventListener('change', fetchPets);

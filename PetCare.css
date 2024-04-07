@@ -54,3 +54,20 @@ select{
     padding: 10px 0;
     margin-top: 61.6vh;
 }
+.dogGuide{
+    position: absolute;
+    left: 80px ;
+    top: 300px;
+}
+.catGuide{
+    position: absolute;
+    right: 80px ;
+    top: 300px;
+}
+body.dark-mode {
+    background-color: black;
+    color: #fff;
+}
+#darkModeLabel{
+ color: black;
+}
