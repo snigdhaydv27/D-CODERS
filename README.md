@@ -15,7 +15,7 @@ WE HAVE ALSO USED GOOGLE FORM TO COLLECT ADOPTERS INFORMATION ,FEEDBACK,QUERY AN
 
 [PPT](https://docs.google.com/presentation/d/15lUvSHF4P7_uOTBWn0CFpPFDnaRpnKqa/edit?usp=sharing&ouid=106060936978738421469&rtpof=true&sd=true)
 
-[Video](https://docs.google.com/presentation/d/15lUvSHF4P7_uOTBWn0CFpPFDnaRpnKqa/edit?usp=sharing&ouid=106060936978738421469&rtpof=true&sd=true)
+[Video](https://youtu.be/Vcs79PpfuXk?si=aPJJ6oIJ4DBboHIS)
 
 
 ## API Reference
