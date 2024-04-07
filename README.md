@@ -13,7 +13,9 @@ WE HAVE ALSO USED GOOGLE FORM TO COLLECT ADOPTERS INFORMATION ,FEEDBACK,QUERY AN
 
 ## Documentation
 
-[Documentation](https://docs.google.com/presentation/d/15lUvSHF4P7_uOTBWn0CFpPFDnaRpnKqa/edit?usp=sharing&ouid=106060936978738421469&rtpof=true&sd=true)
+[PPT](https://docs.google.com/presentation/d/15lUvSHF4P7_uOTBWn0CFpPFDnaRpnKqa/edit?usp=sharing&ouid=106060936978738421469&rtpof=true&sd=true)
+
+[Video](https://docs.google.com/presentation/d/15lUvSHF4P7_uOTBWn0CFpPFDnaRpnKqa/edit?usp=sharing&ouid=106060936978738421469&rtpof=true&sd=true)
 
 
 ## API Reference
@@ -34,6 +36,23 @@ WE HAVE ALSO USED GOOGLE FORM TO COLLECT ADOPTERS INFORMATION ,FEEDBACK,QUERY AN
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `api_key` | `string` | **Required-**  live_k2aoKRpjDHNOolUhGLUab88lPWvjawhi5BDJuktdOmcNvRxA4JXcDJtQ2mGRpaK1|
+
+#### Get Pet Info
+
+```http
+  https://api.api-ninjas.com/v1/dogs?name=
+```
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required-**  9gcSTCovXQPtAcQYIA8+hA==bwI5151LQ1mNiJMB|
+
+```http
+  https://api.api-ninjas.com/v1/cats?name=
+```
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required-**  9gcSTCovXQPtAcQYIA8+hA==bwI5151LQ1mNiJMB|
+
 
 ## Features
 
