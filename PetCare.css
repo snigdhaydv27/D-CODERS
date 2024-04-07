@@ -22,3 +22,35 @@
 .card p {
     margin: 5px 0;
 }
+.cover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+select{
+    width: 190px;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    margin-left: 75px;
+}
+#search{
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+.information{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.footer {
+    background-color: #B9B7BD;
+    color: #EEEDE7;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 61.6vh;
+}
